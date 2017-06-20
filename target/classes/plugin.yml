@@ -1,0 +1,7 @@
+name: StaffMenu
+main: net.angusbeefgaming.staffmenu.Staff
+author: TheBeefSteak
+version: 1.0
+commands:
+  staffm:
+    description: Opens the Staff Menu
