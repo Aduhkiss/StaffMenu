@@ -37,7 +37,7 @@ public class onClick implements Listener {
             event.setCancelled(true);
             player.closeInventory();
         }
-        if(item.getType()==Material.CLOCK) {
+        if(item.getType()==Material.CHEST) {
             Bukkit.getServer().dispatchCommand(player, "socialspy");
             event.setCancelled(true);
             player.closeInventory();

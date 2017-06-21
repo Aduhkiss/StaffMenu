@@ -32,7 +32,7 @@ public class StaffMenu implements CommandExecutor {
         ItemStack ITEMA = nameItem(Material.DIAMOND, ChatColor.AQUA + "StaffMenu Written by Atticus Zambrana");
         ItemStack ITEM1 = nameItem(Material.COMPASS, ChatColor.AQUA + "Toggle Staff Mode");
         ItemStack ITEM2 = nameItem(Material.GRASS, ChatColor.AQUA + "Toggle Super Vanish");
-        ItemStack ITEM3 = nameItem(Material.CLOCK, ChatColor.AQUA + "Toggle Social Spy");
+        ItemStack ITEM3 = nameItem(Material.CHEST, ChatColor.AQUA + "Toggle Social Spy");
         // And now I will bind the items to the inventory
         inv.setItem(0, ITEM1);
         inv.setItem(1, ITEM2);
