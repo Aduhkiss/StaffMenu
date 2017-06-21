@@ -17,7 +17,7 @@ public class onClick implements Listener {
     @EventHandler
     public void onInventoryClick(InventoryClickEvent event) {
         Inventory inv = event.getInventory();
-        if (!inv.getTitle().equals("Staff Menu")) {
+        if (!inv.getTitle().equals(ChatColor.BLUE + "Staff Menu")) {
             return;
         }
         if (!(event.getWhoClicked() instanceof Player)) {
@@ -41,3 +41,4 @@ public class onClick implements Listener {
         player.closeInventory();
     }
 }
+
