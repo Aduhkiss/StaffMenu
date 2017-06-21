@@ -37,6 +37,11 @@ public class onClick implements Listener {
             event.setCancelled(true);
             player.closeInventory();
         }
+        if(item.getType()==Material.CLOCK) {
+            Bukkit.getServer().dispatchCommand(player, "socialspy");
+            event.setCancelled(true);
+            player.closeInventory();
+        }
         if (item.getType()==Material.DIAMOND) {
             player.sendMessage("StaffMenu Written by Atticus Zambrana or TheBeefSteak");
             event.setCancelled(true);
