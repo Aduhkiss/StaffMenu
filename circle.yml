@@ -1,5 +1,3 @@
 test:
   override:
   - mvn package
-  - cd target
-  - mv StaffMenu-1.0-SNAPSHOT.jar $CIRCLE_ARTIFACTS
