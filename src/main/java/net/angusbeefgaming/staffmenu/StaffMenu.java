@@ -32,8 +32,8 @@ public class StaffMenu implements CommandExecutor {
         ItemStack ITEM1 = nameItem(Material.COMPASS, ChatColor.AQUA + "Toggle Staff Mode");
         ItemStack ITEM2 = nameItem(Material.GRASS, ChatColor.AQUA + "Toggle Super Vanish");
         // And now I will bind the items to the inventory
-        inv.setItem(1, ITEM1);
-        inv.setItem(2, ITEM2);
+        inv.setItem(0, ITEM1);
+        inv.setItem(1, ITEM2);
         
         // And then Finnaly, I am going to open the Inv for the player
         player.openInventory(inv);
