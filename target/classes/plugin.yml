@@ -5,3 +5,4 @@ version: 1.0
 commands:
   staffm:
     description: Opens the Staff Menu
+    aliases: [staffmenu, sm]
