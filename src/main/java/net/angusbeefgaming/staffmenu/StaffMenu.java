@@ -26,14 +26,16 @@ public class StaffMenu implements CommandExecutor {
             return false;
         }
         Player player = (Player) sender; // Cast Player to Sender
-        Inventory inv = Bukkit.createInventory(null, 9, ChatColor.BLUE + "Staff Menu");
+        Inventory inv = Bukkit.createInventory(null, 18, ChatColor.BLUE + "Staff Menu");
         
         // Here I Setup The Items for the inventory
+        ItemStack ITEMA = nameItem(Material.DIAMOND, ChatColor.AQUA + "StaffMenu Written by Atticus Zambrana");
         ItemStack ITEM1 = nameItem(Material.COMPASS, ChatColor.AQUA + "Toggle Staff Mode");
         ItemStack ITEM2 = nameItem(Material.GRASS, ChatColor.AQUA + "Toggle Super Vanish");
         // And now I will bind the items to the inventory
         inv.setItem(0, ITEM1);
         inv.setItem(1, ITEM2);
+        inv.setItem(9, ITEMA);
         
         // And then Finnaly, I am going to open the Inv for the player
         player.openInventory(inv);
