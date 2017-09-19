@@ -1,6 +1,6 @@
 name: StaffMenu
 main: net.angusbeefgaming.staffmenu.Staff
-author: TheBeefSteak
+author: ["Atticus Zambrana"]
 version: 1.0
 commands:
   staffm:
